@@ -21,7 +21,6 @@
     width: 100%;
     margin: 0px auto;
     padding: 0px 20px;
-    border: 1px solid red;
 }
 
 .manu-bar {
@@ -145,6 +144,12 @@ input {
 }
 
 /*--ending bloging section--*/
+
+/*--starting article section--*/
+.article {
+    margin-bottom: 120px;
+}
+
 .article-container {
     display: flex;
     justify-content: space-between;
@@ -156,11 +161,12 @@ input {
 }
 
 .article-top-box {
-    
+
 
     position: relative;
 }
-.article-top-box h2{
+
+.article-top-box h2 {
     padding-left: 54px;
     font-weight: 700;
     font-size: 2.80rem;
@@ -184,42 +190,153 @@ input {
     margin-top: 24px;
     margin-bottom: 30px;
 }
-.single-box h4{
+
+.single-box h4 {
     font-size: 22px;
     font-weight: 600;
     color: var(--black);
 }
+
 .single-box {
     box-sizing: border-box;
     margin: 20px;
     padding: 15px;
     box-shadow: 0px 0px 30px 0px lightgrey;
 }
-.ditials{
+
+.ditials {
     font-size: 16px;
-line-height: 26px;
-margin-top: 10px;
-margin-bottom: 20px;
+    line-height: 26px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .article-image {
     width: 50%;
     position: relative;
 }
-.btn{
+
+.btn {
     position: absolute;
-    bottom: 20px;
-    background-color: var(--tomato);
+    bottom: -30px;
+    left: -90px;
+
+
+}
+
+.btn button {
+    background: var(--tomato);
+    padding: 20px 23px;
     color: white;
     border: none;
     border-radius: 5px;
-    
 }
-.btn h2{
-    font-size: 25px;
+
+.btn h2 {
+    margin-bottom: 5px;
+    font-size: 4rem;
+    font-weight: 700;
 }
 
 .article-image img {
     width: 100%;
     height: 100%;
+}
+
+/*--ending article section--*/
+
+/*--starting about section--*/
+.about-company {
+    margin-bottom: 120px;
+}
+
+.about-heading h2 {
+    font-size: 45px;
+    font-weight: 700;
+    color: var(--black);
+}
+
+.about-heading p {
+    font-size: 15px;
+    color: var(--gray);
+    margin-top: 24px;
+    margin-bottom: 100px;
+}
+
+.about-container {
+    display: flex;
+    justify-content: center;
+    gap: 124px;
+    align-items: center;
+
+}
+
+.sucess-box {
+
+    width: 241px;
+    height: 214px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--tomato);
+    box-sizing: border-box;
+    padding: px;
+    border-radius: 8px;
+}
+
+.sucess-box h2 {
+    font-size: 45px;
+    font-weight: 600;
+    color: var(--gray);
+    margin-top: 10px;
+}
+
+.sucess-box h5 {
+    color: var(--gray);
+    margin-top: 10px;
+}
+
+/*-- Ending about section--*/
+
+/*-- Starting sponsor section--*/
+.sponsores{
+    margin-bottom: 120px;
+}
+.sponsor-top{
+    text-align: center;
+}
+.sponsor-top h2{
+font-size: 45px;
+font-weight: 700;
+color: var(--black);
+margin-bottom: 24px;
+}
+.sponsor-top p{
+font-size: 15px;
+color: var(--gray);
+margin-bottom: 50px;
+}
+.sponsore-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.sponsore-img img{
+    filter: grayscale(100%);
+    width: 100%;
+    
+}
+/*--ending sponsore section--*/
+
+/*-- Starting footer section--*/
+
+.footer-area{
+    background-color:rgba(255, 144, 14, 0.1) ;
+    text-align: center;
+    margin-bottom: 100px;
+    color: var(--gray);
+}
+.footer-area p{
+    padding: 30px 0px;
 }
