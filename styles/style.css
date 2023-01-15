@@ -351,9 +351,10 @@ input {
 /*--Ending footer section--*/
 
 /*-- Starting responsive mobile--*/
-
-@media only screen and (max-width:576px) {
-
+@media only screen and (max-width:576px){
+    .container{
+        padding: 0px;
+    }
     .manu-bar,
     .manu ul,
     .about-container,
@@ -372,7 +373,7 @@ input {
     }
 
     .btn {
-        left: 17px;
+        left: 30px;
         bottom: -160px;
     }
 
@@ -397,4 +398,5 @@ input {
     .about-heading {
         text-align: center;
     }
+    
 }
