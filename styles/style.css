@@ -300,43 +300,101 @@ input {
 /*-- Ending about section--*/
 
 /*-- Starting sponsor section--*/
-.sponsores{
+.sponsores {
     margin-bottom: 120px;
 }
-.sponsor-top{
+
+.sponsor-top {
     text-align: center;
 }
-.sponsor-top h2{
-font-size: 45px;
-font-weight: 700;
-color: var(--black);
-margin-bottom: 24px;
+
+.sponsor-top h2 {
+    font-size: 45px;
+    font-weight: 700;
+    color: var(--black);
+    margin-bottom: 24px;
 }
-.sponsor-top p{
-font-size: 15px;
-color: var(--gray);
-margin-bottom: 50px;
+
+.sponsor-top p {
+    font-size: 15px;
+    color: var(--gray);
+    margin-bottom: 50px;
 }
-.sponsore-container{
+
+.sponsore-container {
     display: flex;
     justify-content: space-between;
     gap: 30px;
 }
-.sponsore-img img{
+
+.sponsore-img img {
     filter: grayscale(100%);
     width: 100%;
-    
+
 }
+
 /*--ending sponsore section--*/
 
 /*-- Starting footer section--*/
 
-.footer-area{
-    background-color:rgba(255, 144, 14, 0.1) ;
+.footer-area {
+    background-color: rgba(255, 144, 14, 0.1);
     text-align: center;
     margin-bottom: 100px;
     color: var(--gray);
 }
-.footer-area p{
+
+.footer-area p {
     padding: 30px 0px;
+}
+
+/*--Ending footer section--*/
+
+/*-- Starting responsive mobile--*/
+
+@media only screen and (max-width:576px) {
+
+    .manu-bar,
+    .manu ul,
+    .about-container,
+    .article-container,
+    .sponsore-container {
+        flex-direction: column;
+    }
+
+    .article-box {
+        width: 100%;
+    }
+
+    .article-image,
+    .sponsore-img {
+        width: 100%;
+    }
+
+    .btn {
+        left: 17px;
+        bottom: -160px;
+    }
+
+    .blog-container {
+        flex-direction: column-reverse;
+    }
+
+    .photo-galery {
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+
+    .manu ul li {
+        margin: 10px;
+
+    }
+
+    .about-company {
+        margin-top: 230px;
+    }
+
+    .about-heading {
+        text-align: center;
+    }
 }
